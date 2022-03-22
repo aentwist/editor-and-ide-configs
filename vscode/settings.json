@@ -1,0 +1,40 @@
+{
+  // Fira Code iScript needs installation
+  // See https://github.com/kencrocken/FiraCodeiScript
+  "editor.fontFamily": "Fira Code iScript, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "window.zoomLevel": 1,
+  // https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  "emmet.extensionsPath": [
+    "%USERPROFILE%/.vscode"
+  ],
+  "emmet.preferences": {
+    "format.noIndentTags": []
+  },
+
+  // ESLint extension
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Prettier extension
+  "[javascript][typescript][javascriptreact][typescriptreact][vue][json][jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Docstring format for Python docstring extension
+  // https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+  "autoDocstring.docstringFormat": "google",
+  // Formatter for Python extension
+  // Needs installation
+  // See https://code.visualstudio.com/docs/python/editing#_formatting
+  "python.formatting.provider": "black",
+
+  "[html][xml][css][javascript][typescript][javascriptreact][typescriptreact][vue][json][jsonc][yaml][markdown]": {
+    "editor.tabSize": 2
+  }
+}
