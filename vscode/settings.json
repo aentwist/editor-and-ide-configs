@@ -3,6 +3,7 @@
   // See https://github.com/kencrocken/FiraCodeiScript
   "editor.fontFamily": "Fira Code iScript, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
+  "telemetry.telemetryLevel": "error",
   "window.zoomLevel": 1,
   // https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
   "workbench.colorTheme": "Material Theme Darker High Contrast",
