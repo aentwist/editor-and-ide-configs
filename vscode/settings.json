@@ -9,9 +9,12 @@
   // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
   "workbench.iconTheme": "material-icon-theme",
 
-  "emmet.extensionsPath": [
-    "%USERPROFILE%/.vscode"
-  ],
+  // Recommend keeping custom Emmet snippets in the same directory as settings
+  // See https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations
+  //
+  // For remote environments this will also need to be set in the remote settings
+  // e.g. (WSL) /mnt/c/...
+  "emmet.extensionsPath": ["my-path"],
   "emmet.preferences": {
     "format.noIndentTags": []
   },
