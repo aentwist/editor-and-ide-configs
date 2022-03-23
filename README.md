@@ -1,1 +1,1 @@
-# editor-and-ide-configs
+# vscode-settings
